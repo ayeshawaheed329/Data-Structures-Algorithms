@@ -6,7 +6,7 @@ Welcome to my repository for implementing and exploring various data structures 
 
 - [Introduction](#introduction)
 - [Directory Structure](#directory-structure)
-- [LeetCode Problems](#leetcode-problems)
+- [Problems](#problems)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -27,6 +27,9 @@ The repository is organized into the following main folders:
 ## Problems
 
 Explore solutions to algorithmic problems from LeetCode or any other open source platform. The `problems/` directory contains Java solutions along with explanations and comments.
+
+- [Problem 1: Find ceil of given number in the sorted array](src/problems/CeilingOfNumber.java)
+- [Problem 2: Find floor of given number in the sorted array](src/problems/FloorOfNumber.java)
 
 ## Contributing
 
