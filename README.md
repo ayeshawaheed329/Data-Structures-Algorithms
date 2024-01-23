@@ -22,11 +22,11 @@ The repository is organized into the following main folders:
 
 - **`src/`**
     - **`algorithms/`**: Contains the source code for basic algorithms using data structures.
-    - **`leetcodeProblems/`**: Provides solutions to algorithmic problems from LeetCode.
+    - **`problems/`**: Provides solutions to algorithmic problems.
 
-## LeetCode Problems
+## Problems
 
-Explore solutions to algorithmic problems from LeetCode. The `leetcodeProblems/` directory contains Java solutions along with explanations and comments.
+Explore solutions to algorithmic problems from LeetCode or any other open source platform. The `problems/` directory contains Java solutions along with explanations and comments.
 
 ## Contributing
 
