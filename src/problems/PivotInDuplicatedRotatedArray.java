@@ -2,16 +2,16 @@ package problems;
 
 import java.util.Arrays;
 
-public class PivotInRotatedSortedArray {
+public class PivotInDuplicatedRotatedArray {
 
     public static void main(String[] args) {
-        int[] arr = {2,3,5,6,8,9,14,17};
+        int[] arr = {2,3,3,5,5,5,5,6,8,9,9,9,14,17,17};
         int[] rotate_arr2 = rotateArray(arr, 2);
-        int[] rotate_arr4 = rotateArray(arr, 4);
         int[] rotate_arr7 = rotateArray(arr, 7);
+        int[] rotate_arr14 = rotateArray(arr, 14);
         System.out.println(Arrays.toString(rotate_arr2) + " Largest is: "+ findPivot(rotate_arr2));
-        System.out.println(Arrays.toString(rotate_arr4) + " Largest is: "+ findPivot(rotate_arr4));
         System.out.println(Arrays.toString(rotate_arr7) + " Largest is: "+ findPivot(rotate_arr7));
+        System.out.println(Arrays.toString(rotate_arr14) + " Largest is: "+ findPivot(rotate_arr14));
     }
 
     static int[] rotateArray(int[] arr, int k){
@@ -35,11 +35,22 @@ public class PivotInRotatedSortedArray {
             if( middle > start && arr[middle] < arr[middle - 1] ){
                 return middle - 1;
             }
-            if( arr[middle] >= arr[start]){
+            // skip duplicates
+            if( arr[middle] == arr[start] && arr[middle] == arr[end]){
+                if( arr[start] > arr[start+1]){
+                    return start;
+                }
+                start++;
+                if( arr[end] < arr[end -1]){
+                    return  end - 1;
+                }
+                end--;
+            }else if( arr[middle] > arr[start] || ( arr[middle] == arr[start] && arr[middle] > arr[end])){
                 start = middle + 1;
             }else{
                 end = middle - 1;
             }
+
         };
         return  - 1;
     }
