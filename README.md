@@ -38,7 +38,7 @@ Explore solutions to algorithmic problems from LeetCode or any other open source
 +
 Contributions are welcome! If you'd like to contribute to this repository by adding your solutions, improving existing solutions, or suggesting enhancements, please follow these steps:
 
-1. Fork the repository.
+1. Fork the repository
 2. Create a new branch for your work: git checkout -b feature/your-feature-name.
 3. Make your changes, add your solutions, and write explanations in the problem's README file.
 4. Commit your changes and push them to your fork: git push origin feature/your-feature-name.
