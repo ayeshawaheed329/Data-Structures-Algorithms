@@ -33,7 +33,7 @@ Explore solutions to algorithmic problems from LeetCode or any other open source
 - [Problem 3: Find first and last occurance of given number in the sorted array](src/problems/FirstAndLastOccuranceOfElement.java)
 - [Problem 4: Find pivot in the rotated sorted array](src/problems/PivotInRotatedSortedArray.java)
 - [Problem 4: Find pivot in the rotated sorted array having duplicates](src/problems/PivotInDuplicatedRotatedArray.java)
-- 
+
 ## Contributing
 +
 Contributions are welcome! If you'd like to contribute to this repository by adding your solutions, improving existing solutions, or suggesting enhancements, please follow these steps:
