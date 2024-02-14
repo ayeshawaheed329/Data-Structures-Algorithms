@@ -32,7 +32,8 @@ Explore solutions to algorithmic problems from LeetCode or any other open source
 - [Problem 2: Find floor of given number in the sorted array](src/problems/FloorOfNumber.java)
 - [Problem 3: Find first and last occurance of given number in the sorted array](src/problems/FirstAndLastOccuranceOfElement.java)
 - [Problem 4: Find pivot in the rotated sorted array](src/problems/PivotInRotatedSortedArray.java)
-- [Problem 4: Find pivot in the rotated sorted array having duplicates](src/problems/PivotInDuplicatedRotatedArray.java)
+- [Problem 5: Find pivot in the rotated sorted array having duplicates](src/problems/PivotInDuplicatedRotatedArray.java)
+- [Problem 6: Find nth fibonacci number by recusion](src/problems/FibonacciByRecusion.java)
 
 ## Contributing
 +
