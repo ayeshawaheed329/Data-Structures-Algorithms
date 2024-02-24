@@ -33,7 +33,7 @@ public class ProblemsSolutionByBitwise {
         int unique = 0;
         for(int n: arr){
             unique ^= n;
-        };
+        }
         return  unique;
     }
 
@@ -52,7 +52,7 @@ public class ProblemsSolutionByBitwise {
         while( n > 0 ){
             count++;
             n -= ( n & -n);
-        };
+        }
         return count;
     }
 }
