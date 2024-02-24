@@ -35,7 +35,8 @@ Explore solutions to algorithmic problems from LeetCode or any other open source
 - [Problem 5: Find pivot in the rotated sorted array having duplicates](src/problems/PivotInDuplicatedRotatedArray.java)
 - [Problem 6: Find nth fibonacci number by recusion](src/problems/FibonacciByRecusion.java)
 - [Problem 7: Find nth magic number of given base/number](src/problems/MagicNumberOfFive.java)
-
+- [Problem 8: Find number of digits in base of number n](src/problems/DigitCounter.java)
+- 
 ## Contributing
 +
 Contributions are welcome! If you'd like to contribute to this repository by adding your solutions, improving existing solutions, or suggesting enhancements, please follow these steps:
