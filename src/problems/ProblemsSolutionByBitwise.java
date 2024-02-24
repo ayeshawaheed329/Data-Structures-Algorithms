@@ -9,6 +9,8 @@ public class ProblemsSolutionByBitwise {
 
         System.out.println("16 is power of 2? "+isPowerOfTwo(16));
         System.out.println("10 is power of 2? "+isPowerOfTwo(10));
+
+        System.out.println("The number of set bits in " + Integer.toBinaryString(131) +" are : "+countSetBits(131));
     }
 
     public static  boolean isPowerOfTwo(int n){
@@ -38,5 +40,19 @@ public class ProblemsSolutionByBitwise {
     public static int getithBit(int n, int i){
         int mask = ( 1 << (i-1));
         return n & mask;
+    }
+
+    public static  int countSetBits(int n){
+        /*
+            if no is AND with it's negative it return RMB (n & -n)
+            subtract the number from it
+            count RMBS
+         */
+        int count = 0;
+        while( n > 0 ){
+            count++;
+            n -= ( n & -n);
+        };
+        return count;
     }
 }
