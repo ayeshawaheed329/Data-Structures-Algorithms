@@ -37,7 +37,8 @@ Explore solutions to algorithmic problems from LeetCode or any other open source
 - [Problem 7: Find nth magic number of given base/number](src/problems/MagicNumberOfFive.java)
 - [Problem 8: Find number of digits in base of number n](src/problems/DigitCounter.java)
 - [Problem 9: Find initial n prime numbers in O(N * log(log N))](src/problems/PrimesNumbers.java)
-
+- [Problem 9: Find sqrt of number by binary search](src/problems/SqrtByBinarySearch.java)
+- 
 ## Contributing
 +
 Contributions are welcome! If you'd like to contribute to this repository by adding your solutions, improving existing solutions, or suggesting enhancements, please follow these steps:
