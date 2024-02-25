@@ -11,6 +11,9 @@ public class ProblemsSolutionByBitwise {
         System.out.println("10 is power of 2? "+isPowerOfTwo(10));
 
         System.out.println("The number of set bits in " + Integer.toBinaryString(131) +" are : "+countSetBits(131));
+
+        System.out.println("XOR of 0 to 9 is : "+xorOfnNumbers(9));
+        System.out.println("XOR between 3 to 9 is : "+ (xorOfnNumbers(9) ^ xorOfnNumbers(3)));
     }
 
     public static  boolean isPowerOfTwo(int n){
@@ -54,5 +57,28 @@ public class ProblemsSolutionByBitwise {
             n -= ( n & -n);
         }
         return count;
+    }
+
+    public static int xorOfnNumbers(int n){
+        /*
+            0 ^ 0 = 0
+            0 ^ 1 = 1
+            1 ^ 2 = 3
+            3 ^ 3 = 0
+            0 ^ 4 = 4
+            4 ^ 5 = 1
+            1 ^ 6 = 3
+            The above pattern keeps repeating after every 4 number
+         */
+        if( n % 4 == 0 ){
+            return n;
+        }
+        if( n % 4 == 1 ){
+            return 1;
+        }
+        if( n % 4 == 2 ){
+            return n+1;
+        }
+        return n%4;
     }
 }
