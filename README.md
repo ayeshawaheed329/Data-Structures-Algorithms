@@ -39,7 +39,7 @@ Explore solutions to algorithmic problems from LeetCode or any other open source
 - [Problem 9: Find initial n prime numbers in O(N * log(log N))](src/problems/PrimesNumbers.java)
 - [Problem 10: Find sqrt of number by binary search](src/problems/SqrtByBinarySearch.java)
 - [Problem 11: Find sqrt of number by binary search](src/problems/SqrtByBinarySearch.java)
-- [Problem 12: Find GCD (Greatest common divisor)](src/problems/Gcd.java)
+- [Problem 12: Find GCD (Greatest common divisor) and LCM (Least common multiple)](src/problems/GcdAndLcm.java)
 - 
 ## Contributing
 +
